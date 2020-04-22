@@ -1,0 +1,19 @@
+{
+  "name": "contract-testing-example",
+  "version": "0.1.0",
+  "private": true,
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "@kjendrzyca",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.4.0",
+    "jest": "^25.4.0"
+  }
+}

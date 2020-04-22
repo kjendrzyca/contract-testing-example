@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`db test fetches all movies - db1 1`] = `
+Object {
+  "director": "Christopher Nolan",
+  "id": 1,
+  "lastFetchDate": Any<Date>,
+  "name": "Interstellar",
+  "runtime": 169,
+  "year": "2014",
+}
+`;
