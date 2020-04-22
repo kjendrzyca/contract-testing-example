@@ -1,0 +1,3 @@
+[build]
+  base = "slides/"
+  publish = "slides/public/"
