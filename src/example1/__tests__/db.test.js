@@ -11,8 +11,8 @@ const db3 = require('../db3')
 
 const createApi = require('../api')
 
-describe('db test', () => {
-  it('fetches all movies - db1', async () => {
+describe.skip('db test', () => {
+  it('fetches all movies', async () => {
     // given
     let api
 
