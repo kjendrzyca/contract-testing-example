@@ -1,0 +1,118 @@
+# Solving Trust Issues with Contract Based Testing
+
+@kjendrzyca / celujwprostote.pl
+
+---
+
+## Agenda
+
+- What is Contract Testing?
+- Trust issues
+- Example 1
+- Example 2
+- Example 3
+- Konkurs
+-
+
+---
+
+## Czym jest Contract Testing?
+
+- Scaling teams / External teams
+- Large-scale manual system test (like microservices)
+- Sticking to the interface
+
+---
+
+## Trust issues
+
+- Communication / Knowledge (how we use the API)
+- Lack of skill
+- Accidental changes
+- Timezones
+
+---
+
+## Example 1 - DB
+
+- big static database
+- no chance to run it locally
+- different timezone
+- no migrations
+- a lot of work
+
+- in the morning - the app doesn't work 🤷‍♂️
+
+---
+
+### Good practices
+
+- avoid big snapshots
+- communicate a lot
+
+---
+
+## Example 2 - API
+
+- similar as with the db example
+
+---
+
+## Example 3 - Pact
+
+- Consumer-Driven Contract tests
+
+---
+
+[https://pactflow.io/how-pact-works](https://pactflow.io/how-pact-works)
+
+---
+
+### Good practices
+
+- check only what's needed
+- don't use when you control the whole thing
+
+---
+
+## Next steps
+
+- Konkurs
+- Q&A
+
+---
+
+## Konkurs - link na czacie
+
+---
+
+## Q&A
+
+---
+
+## Konkurs - poprawne odpowiedzi
+
+Do jakiego rodzaju testów służy framework Pact?
+
+- Snapshot Tests
+- Provider Tests
+- **Consumer-Driven Contract tests (poprawna)**
+
+Jak nie powinniśmy nazywać dwóch składowych testów kontraktowych?
+
+- consumer, provider
+- **client, server (poprawna)**
+- subscriber, publisher
+
+---
+
+## Links
+
+- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis/blob/master/README.md#anime)
+- [https://jestjs.io/docs/en/snapshot-testing](https://jestjs.io/docs/en/snapshot-testing)
+- [https://github.com/kjendrzyca/contract-testing-example](https://github.com/kjendrzyca/contract-testing-example)
+- Jest snapshot language support (VSCode)
+
+---
+
+👋
